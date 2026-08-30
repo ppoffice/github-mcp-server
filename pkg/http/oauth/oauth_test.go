@@ -598,6 +598,7 @@ func TestSupportedScopes(t *testing.T) {
 		"notifications",
 		"workflow",
 		"codespace",
+		"user",
 	}
 
 	assert.Equal(t, expectedScopes, SupportedScopes)
